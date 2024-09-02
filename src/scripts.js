@@ -13,7 +13,7 @@ function logColor() {
 	return favColor.value;
 }
 
-const bgBtn = document.getElementById('change-bg');
+// const bgBtn = document.getElementById('change-bg');
 
 function changeBg() {
 	const body = document.querySelector('body');
