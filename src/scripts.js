@@ -9,7 +9,7 @@ let favColor = document.getElementById('favcolor');
 function logColor() {
 	event.preventDefault();
 	const p = document.getElementById('color-output');
-	p.innerText = favColor.value;
+	p.innerText = 'Selected colour hex: ' + favColor.value;
 	return favColor.value;
 }
 
